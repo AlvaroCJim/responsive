@@ -1,0 +1,92 @@
+
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #eaeaea;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #6d4c41;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-style: italic;
+}
+
+nav {
+    background: #8d6e63;
+    padding: 15px;
+    text-align: left;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 15px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+.ord {
+    list-style: georgian;
+}
+.noord {
+    list-style: square;
+}
+.concepto {
+    font-weight: bold;
+}
+section {
+    padding: 30px;
+    margin-left: 220px;
+    background: #fff;
+    border-left: 5px solid #6d4c41;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fdfdfd;
+}
+
+table, th, td {
+    border: 2px solid #444;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+tfoot {
+    background: #d7ccc8;
+}
+
+footer {
+    background: #5d4037;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.inicio-final {
+    color: white;
+    text-decoration: none;
+    outline: none;
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Mi Biografía - Álvaro Corro Jiménez</title>
+        <link></link>
+        <description>Feed RSS sobre la biografía, gustos y aficiones de Álvaro Corro Jiménez</description>
+        <language>es</language>
+
+        <item>
+            <title>Mi biografía</title>
+            <link>http://127.0.0.1:5500/LM/HTML/A4/main.html#inicio</link>
+            <description>Esta página web va a tratar sobre mí.</description>
+        </item>
+
+        <item>
+            <title>Gustos y aficiones</title>
+            <link>http://127.0.0.1:5500/LM/HTML/A4/main.html#1</link>
+            <description>Me gustan los videojuegos, la música típica española y la música urbana.</description>
+        </item>
+
+        <item>
+            <title>Elementos Multimedia</title>
+            <link>http://127.0.0.1:5500/LM/HTML/A4/main.html#seccion2</link>
+            <description>Imágenes, canciones y videos de mis momentos favoritos.</description>
+        </item>
+
+        <item>
+            <title>Deportes practicados</title>
+            <link>http://127.0.0.1:5500/LM/HTML/A4/main.html#deportes</link>
+            <description>Desde natación hasta boxeo, estos son los deportes que he practicado a lo largo de los años.</description>
+        </item>
+        
+    </channel>
+</rss>

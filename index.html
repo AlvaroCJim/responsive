@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi biografia</title>
+    <link rel="alternate" type="application/rss+xml" title="rss" href=manolo.xml>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlfLq415bvLfrKC0XsE6iAhUo8N2nR8tdGAA&s">
+</head>
+<body>
+
+<header>
+    <h1>Biografia</h1>
+    <p>Autor. Alvaro Corro Jimenez</p>
+</header>
+<nav>
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#1">Gustos y aficiones</a></li>
+        <li><a href="contacto.html">Página de contacto</a></li>
+        <li><a href="https://www.linkedin.com/in/alvaro-corro-jimenez/">Mi linkedin</a></li>
+    </ul>
+</nav>
+<section id="inicio">
+    <h2>Mi biografia</h2>
+    <p>Esta página web va a tratar sobre mi.</p>
+</section>
+<section id="1">
+    <h2>Gustos y aficiones</h2>
+    <h3>Gustos</h3>
+    <ol class="ord">
+        <li>Jugar a videojuegos</li>
+        <li>La música típica española</li>
+        <li>La música urbana</li>
+    </ol>
+
+    <h3>Aficiones</h3>
+    <ul class="noord">
+        <li>La historia</li>
+        <li>Las batallas de Freestyle</li>
+        <li>El boxeo</li>
+    </ul>
+    <h3>Definiciones</h3>
+    <dl>
+        <dt class="concepto">Boxeo</dt>
+        <dd>El boxeo es un deporte de combate en el que dos contrincantes luchan <br>utilizando únicamente sus puños con guantes, siguiendo determinadas reglas.</dd>
+        <dt class="concepto">Freestyle</dt>
+        <dd>El freestyle rap o rap libre es un estilo y una competencia que consiste en rapear <br>de manera improvisada “o con una letra escrita en un micro libre sobre una base”</dd>
+    </dl>
+</section>
+<section id="seccion2">
+    <h2>Elementos Multimedia</h2>
+    <h3>Este soy yo:</h3>
+    <picture>
+        <source media="(min-width: 1000px)" srcset="multimedia/yo.jpeg"/>
+        <source media="(max-width: 999px)" srcset="multimedia/yo_peq.jpg" />
+        <img src="multimedia/yo.jpeg" alt="Yo" width="300" />
+    </picture>
+
+    <h3>Una de mis canciones favoritas es esta:</h3>
+    <audio controls>
+        <source src="multimedia/Feid Young Miko  Classy 101.mp3">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <h3>Este es uno de los mejores minutos de improvisacion que he escuchado:</h3>
+    <video width="320" height="240" controls>
+        <source src="multimedia/videotematicabnet.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+    </video>
+</section>
+<section id="deportes">
+    <h2>Deportes practicados</h2>
+    <table>
+        <caption>Deportes</caption>
+        <thead>
+            <tr class="arriba">
+                <th>Edad</th>
+                <th>Deporte</th>
+                <th>Tiempo prácticado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>5 años</td>
+                <td>Natacion</td>
+                <td>6 meses</td>
+            </tr>
+            <tr>
+                <td>6 años</td>
+                <td>Baloncesto</td>
+                <td>3 meses</td>
+            </tr>
+            <tr>
+                <td>7 años</td>
+                <td>Atletismo</td>
+                <td>3 meses</td>
+            </tr>
+            <tr>
+                <td>9 años</td>
+                <td>Boxeo</td>
+                <td>3 meses</td>
+            </tr>
+            <tr>
+                <td>10 años</td>
+                <td>Futbol Sala</td>
+                <td>4 años</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<footer>
+    <p class="inicio-final"><a href="#inicio">Volver al inicio</a></p>
+    <a href="http://127.0.0.1:5500/LM/HTML/A4/manolo.xml"><img src="multimedia/rss.png" alt="rss" width="20px" height="20px"></a>
+</footer>
+
+</body>
+</html>
